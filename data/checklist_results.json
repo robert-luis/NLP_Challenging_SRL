@@ -1,0 +1,29 @@
+{
+    "capabilities": {
+        "capability1": {
+            "tests": {
+                "Passive_Arg1": {
+                    "data": [
+                        "The soda is spilled",
+                        "The pepsi is spilled"
+                    ],
+                    "failures": [],
+                    "correct": [
+                        {
+                            "sentence": "The soda is spilled",
+                            "span": "The tea",
+                            "expected": "ARG1",
+                            "predicted": "ARG1"
+                        },
+                        {
+                            "sentence": "The pepsi is spilled",
+                            "span": "The tea",
+                            "expected": "ARG1",
+                            "predicted": "ARG1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
